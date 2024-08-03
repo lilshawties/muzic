@@ -30,7 +30,7 @@ module.exports = {
 
     if (!queue) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -43,7 +43,7 @@ module.exports = {
     queue.previous();
 
     const embed = new EmbedBuilder()
-      .setColor('#00FF00')
+      .setColor('#bc8787')
        .setAuthor({ 
           name: lang.previousTitle, 
           iconURL: musicIcons.skipIcon,
