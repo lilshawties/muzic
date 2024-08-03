@@ -42,7 +42,7 @@ module.exports = {
 
     const autoplay = queue.toggleAutoplay();
     const embed = new EmbedBuilder()
-      .setColor('#00FF00')
+      .setColor('#bc8787')
       .setAuthor({ 
         name: lang.autoplayToggledTitle, 
         iconURL: musicIcons.correctIcon,
