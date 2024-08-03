@@ -32,7 +32,7 @@ module.exports = {
 
     if (!voiceChannel) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#bc8787')
         .setTitle() 
         .setAuthor({ 
           name: lang.playErrorTitle, 
@@ -49,7 +49,7 @@ module.exports = {
     });
 
     const embed = new EmbedBuilder()
-      .setColor('#00FF00')
+      .setColor('#bc8787')
       .setAuthor({ 
         name: lang.playSearchingTitle, 
         iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1252165467842416680/1667-yellow-gears.gif?ex=66adde77&is=66ac8cf7&hm=8d3ba3715a31cb5742cc5f3363742000cf559dfe01254e32af3fbad8f5c789a6&',
