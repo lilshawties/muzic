@@ -45,7 +45,7 @@ module.exports = {
       const songList = playlist.songs ? playlist.songs.split(',').map((song, index) => `${index + 1}. ${song}`).join('\n') : lang.noSongs;
 
       const embed = new EmbedBuilder()
-        .setColor('#00FF00')
+        .setColor('#bc8787')
         .setAuthor({ 
           name: `${lang.title} ${playlistName}`, 
           iconURL: musicIcons.playlistIcon,
