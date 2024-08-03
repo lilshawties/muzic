@@ -34,7 +34,7 @@ module.exports = {
 
     if (!voiceChannel) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#bc8787')
         .setTitle(lang.titleError)
         .setDescription(lang.errorNotInVoiceChannel);
       return interaction.reply({ embeds: [embed] });
@@ -45,7 +45,7 @@ module.exports = {
       await client.distube.play(voiceChannel, url, { type: 'PLAYLIST' });
 
       const embed = new EmbedBuilder()
-        .setColor('#00FF00')
+        .setColor('#bc8787')
         .setTitle(lang.titlePlaylistAdded)
         .setDescription(lang.playlistAdded);
       
@@ -53,7 +53,7 @@ module.exports = {
     } catch (error) {
       console.error(error);
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#bc8787')
         .setTitle(lang.titleError)
         .setDescription(lang.errorAddingPlaylist);
       await interaction.editReply({ embeds: [embed] });
