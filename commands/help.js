@@ -42,13 +42,13 @@ module.exports = {
     const embed1 = new EmbedBuilder()
       .setTitle('Bot Information')
       .setDescription(
-        `Developed By: **GlaceYT**\n`+
+        `Developed By: **𝗯𝗼𝗺𝗶𝗲**\n`+
         `Node Version: **v20.12.2**\n` +
         `Server Name: **${interaction.guild.name}**\n` +
         `Total Members: **${interaction.guild.memberCount}**\n` +
         `DisTube Status: **${queueStatus}**`
       )
-      .setColor('#00FF00');
+      .setColor('#bc8787');
 
   
     const embed2 = new EmbedBuilder()
