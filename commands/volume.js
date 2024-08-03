@@ -31,7 +31,7 @@ module.exports = {
 
     if (!queue) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -44,7 +44,7 @@ module.exports = {
     const volume = interaction.options.getInteger('level');
     if (volume < 0 || volume > 100) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -57,7 +57,7 @@ module.exports = {
     queue.setVolume(volume);
 
     const embed = new EmbedBuilder()
-      .setColor('#00FF00')
+      .setColor('#bc8787')
       .setAuthor({ 
         name: lang.volumeSetTitle, 
         iconURL: musicIcons.volumeIcon,
