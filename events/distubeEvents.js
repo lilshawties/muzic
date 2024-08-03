@@ -12,7 +12,7 @@ module.exports = (client) => {
 
       try {
         const embed = new EmbedBuilder()
-          .setColor('#00FF00')
+          .setColor('#bc8787')
           .setAuthor({ 
             name: messages.playSong.authorName, 
             iconURL: musicIcons.playerIcon,
@@ -39,7 +39,7 @@ module.exports = (client) => {
 
       try {
         const embed = new EmbedBuilder()
-          .setColor('#00FF00')
+          .setColor('#bc8787')
           .setAuthor({ 
             name: messages.addSong.authorName, 
             iconURL: musicIcons.correctIcon,
@@ -65,7 +65,7 @@ module.exports = (client) => {
         }
 
         const embed = new EmbedBuilder()
-          .setColor('#FF0000')
+          .setColor('#bc8787')
           .setAuthor({ 
             name: messages.error.authorName, 
             iconURL: musicIcons.dotIcon,
@@ -87,7 +87,7 @@ module.exports = (client) => {
 
       try {
         const embed = new EmbedBuilder()
-          .setColor('#00FF00')
+          .setColor('#bc8787')
           .setAuthor({ 
             name: messages.finish.authorName, 
             iconURL: musicIcons.beatsIcon,
