@@ -54,7 +54,7 @@ module.exports = {
     const embed2 = new EmbedBuilder()
       .setTitle('Available Commands')
       .setDescription(commandList || 'No commands available.')
-      .setColor('#00FF00'); 
+      .setColor('#bc8787'); 
 
   
     await interaction.reply({ embeds: [embed1, embed2] });
