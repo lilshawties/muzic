@@ -50,7 +50,7 @@ module.exports = {
           return interaction.reply({ content: lang.removeError, ephemeral: true });
         }
         const embed = new EmbedBuilder()
-          .setColor('#00FF00')
+          .setColor('#bc8787')
           .setAuthor({ 
             name: lang.successTitle, 
             iconURL: musicIcons.correctIcon,
