@@ -44,7 +44,7 @@ module.exports = {
     const index = interaction.options.getInteger('index');
     if (index < 1 || index > queue.songs.length) {
       const embed = new EmbedBuilder()
-        .setColor('#bc8787')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
