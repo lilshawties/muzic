@@ -42,5 +42,6 @@ module.exports = async (client) => {
   
   client.user.setActivity('.𝘣𝘰𝘮𝘪𝜗𝜚˚⋆', {
     type: ActivityType.Watching,
+    status: 'dnd',
   });
 };
