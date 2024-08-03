@@ -31,7 +31,7 @@ module.exports = {
 
     if (!queue) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -44,7 +44,7 @@ module.exports = {
     const mode = interaction.options.getInteger('mode');
     if (![0, 1, 2].includes(mode)) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -57,7 +57,7 @@ module.exports = {
     queue.setRepeatMode(mode);
     const modeText = mode === 0 ? lang.loopModeDisabled : mode === 1 ? lang.loopSongEnabled : lang.loopQueueEnabled;
     const embed = new EmbedBuilder()
-      .setColor('#00FF00')
+      .setColor('#bc8787')
       .setAuthor({ 
         name: lang.loopTitle, 
         iconURL: musicIcons.loopIcon,
