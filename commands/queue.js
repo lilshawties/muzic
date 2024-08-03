@@ -32,7 +32,7 @@ module.exports = {
 
     if (!queue) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -53,7 +53,7 @@ module.exports = {
     for (let i = 0; i < totalChunks; i++) {
       const chunk = songs.slice(i * chunkSize, (i + 1) * chunkSize);
       const embed = new EmbedBuilder()
-        .setColor('#00FF00')
+        .setColor('#bc8787')
         .setAuthor({ 
           name: lang.queueTitle, 
           iconURL: musicIcons.beatsIcon,
