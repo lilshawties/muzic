@@ -30,7 +30,7 @@ module.exports = {
 
     if (!queue) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -42,7 +42,7 @@ module.exports = {
 
     if (queue.paused) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -55,7 +55,7 @@ module.exports = {
     queue.pause();
 
     const embed = new EmbedBuilder()
-      .setColor('#FFFF00')
+      .setColor('#bc8787')
       .setAuthor({ 
         name: lang.pauseTitle, 
         iconURL: musicIcons.pauseresumeIcon,
