@@ -37,7 +37,7 @@ module.exports = {
 
     if (!voiceChannel) {
       const embed = new EmbedBuilder()
-        .setColor('#bc8787')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -56,7 +56,7 @@ module.exports = {
 
       if (videos.length === 0) {
         const embed = new EmbedBuilder()
-          .setColor('#bc8787')
+          .setColor('#812f49')
           .setAuthor({ 
             name: 'No Results!', 
             iconURL: musicIcons.dotIcon,
