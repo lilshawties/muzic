@@ -37,7 +37,7 @@ module.exports = {
 
     if (!voiceChannel) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#bc8787')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -56,7 +56,7 @@ module.exports = {
 
       if (videos.length === 0) {
         const embed = new EmbedBuilder()
-          .setColor('#FF0000')
+          .setColor('#bc8787')
           .setAuthor({ 
             name: 'No Results!', 
             iconURL: musicIcons.dotIcon,
@@ -78,7 +78,7 @@ module.exports = {
       }
 
       const embed = new EmbedBuilder()
-        .setColor('#00FF00')
+        .setColor('#bc8787')
         .setTitle(lang.findTitle)
         .setDescription(lang.findPrompt)
         .addFields(videos.map((video, i) => ({
