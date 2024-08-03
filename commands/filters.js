@@ -30,7 +30,7 @@ module.exports = {
 
     if (!queue) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#bc8787')
         .setTitle(lang.errorTitle)
         .setDescription(lang.noSongPlaying);
       return interaction.reply({ embeds: [embed] });
@@ -39,7 +39,7 @@ module.exports = {
     const filters = ['3d', 'bassboost', 'echo', 'karaoke', 'nightcore', 'vaporwave', 'flanger', 'gate', 'haas', 'reverse'];
 
     const embed = new EmbedBuilder()
-      .setColor('#00FF00')
+      .setColor('#bc8787')
       .setTitle(lang.availableFiltersTitle)
       .setDescription(lang.clickButtonToApply);
 
