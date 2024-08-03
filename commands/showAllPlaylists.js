@@ -41,7 +41,7 @@ module.exports = {
 
       for (let i = 0; i < totalEmbeds; i++) {
         const embed = new EmbedBuilder()
-          .setColor('#00FF00')
+          .setColor('#bc8787')
           .setTitle(`${lang.title} - ${lang.page} ${i + 1}`)
           .setDescription(
             rows.slice(i * playlistsPerEmbed, (i + 1) * playlistsPerEmbed)
