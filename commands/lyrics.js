@@ -48,12 +48,12 @@ module.exports = {
         const splitLyrics = [lyrics.slice(0, 2000), lyrics.slice(2000)];
         
         const embed1 = new EmbedBuilder()
-          .setColor('#0099ff')
+          .setColor('#bc8787')
           .setTitle(`Lyrics for ${song.fullTitle} (Part 1)`)
           .setDescription(splitLyrics[0]);
 
         const embed2 = new EmbedBuilder()
-          .setColor('#0099ff')
+          .setColor('#bc8787')
           .setTitle(`Lyrics for ${song.fullTitle} (Part 2)`)
           .setDescription(splitLyrics[1]);
 
@@ -61,7 +61,7 @@ module.exports = {
       }
 
       const embed = new EmbedBuilder()
-        .setColor('#0099ff')
+        .setColor('#bc8787')
         .setTitle(`Lyrics for ${song.fullTitle}`)
         .setDescription(lyrics);
 
