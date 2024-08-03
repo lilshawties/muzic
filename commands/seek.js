@@ -31,7 +31,7 @@ module.exports = {
 
     if (!queue) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -45,7 +45,7 @@ module.exports = {
 
     if (time < 0 || time > queue.songs[0].duration) {
       const embed = new EmbedBuilder()
-        .setColor('#FF0000')
+        .setColor('#812f49')
         .setAuthor({ 
           name: 'Alert!', 
           iconURL: musicIcons.dotIcon,
@@ -58,7 +58,7 @@ module.exports = {
     queue.seek(time);
 
     const embed = new EmbedBuilder()
-      .setColor('#00FF00')
+      .setColor('#bc8787')
       .setAuthor({ 
         name: lang.seekTitle, 
         iconURL: musicIcons.beatsIcon,
